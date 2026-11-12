@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "lib": [
+      "DOM",
+      "ES2022"
+    ],
+    "rootDirs": [
+      "src",
+      "../../../../root/.claude/skills/anidoodle/engine/src"
+    ],
+    "paths": {
+      "three": [
+        "../../../../root/.claude/skills/anidoodle/engine/vendor/three/types/Three.d.ts",
+        "../../../../root/.claude/skills/anidoodle/engine/vendor/three/three-untyped.d.ts"
+      ]
+    }
+  },
+  "include": [
+    "src"
+  ]
+}

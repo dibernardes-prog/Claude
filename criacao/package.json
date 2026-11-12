@@ -1,0 +1,14 @@
+{
+  "name": "criacao",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "three": "0.170.0"
+  },
+  "scripts": {
+    "still": "node '/root/.claude/skills/anidoodle/engine/tools/still.mjs' criacao",
+    "render": "node '/root/.claude/skills/anidoodle/engine/tools/render.mjs' criacao",
+    "framecheck": "node '/root/.claude/skills/anidoodle/engine/tools/framecheck.mjs' criacao",
+    "ship": "node '/root/.claude/skills/anidoodle/engine/tools/ship.mjs' criacao"
+  }
+}
